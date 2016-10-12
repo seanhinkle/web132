@@ -1,0 +1,124 @@
+
+
+
+p {
+    font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "serif";
+    text-align: center;
+    font-size: 1.563em;
+}
+ul {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:inline;
+    background-color:darkgray;
+    opacity: 50%;
+    text-decoration: none;
+}
+.container {
+    text-align: center;
+    display: block;
+/*
+    margin-left: auto;
+    margin-right: auto;
+*/
+    padding-left:20%;
+    padding-right: 20%;
+    text-align-last: left;
+}
+img {
+     width: 100%;
+    height: auto;
+    position: relative;
+    
+}
+.title h1 {
+    font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "serif";
+    padding-right: 25%;
+    padding-left: 30%;
+    text-align: center;
+    text-decoration: line-through;
+    
+    position: absolute;
+    z-index: 100;
+}
+body {
+    background-image: url("http://slodive.com/wp-content/uploads/2011/09/textured-backgrounds/wrinkled-paper.jpg");
+    
+}
+
+
+li a {
+    text-decoration: none;
+    
+    font-size: 1.563em;
+    color: black;
+      font-family:  "Palatino Linotype", "Book Antiqua", "Palatino", "serif";
+
+}
+li {
+       text-decoration: none;
+    display: inline;
+    
+}
+li a.active {
+    background-color:brown;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color:darkblue;
+    color: white;
+}
+.pricing{
+    position: relative;
+    padding-left:20%;
+    padding-right: 20%;
+}
+.pricing h2{
+    padding-left: 45%;
+        padding-right: 20%;
+}
+
+@media only screen and (min-width: 20em){
+    p{
+        font-size: .9em;
+    }
+    .pricing h2{
+        padding-right: %;
+        padding-left: 37%;
+        font-size: 1.6em;
+    }
+    .title h1{
+        font-size:1.7em;
+        padding-top: .6em;
+        padding-right: 40%;
+        padding-left: 27%
+    }
+    li a{
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width: 50em){
+       p{
+        font-size: 1.3em;
+    }
+    .pricing h2{
+        padding-right: ;
+        padding-left: 40%;
+    }
+    .title h1{
+        font-size:1.9em;
+        padding-top: .6em;
+        padding-right: auto;
+        padding-left: 30%
+    }
+    li a{
+        font-size: 1.3em;
+    }
+}
