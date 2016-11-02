@@ -6,7 +6,7 @@ p {
     text-align: center;
     font-size: 1.563em;
 }
-ul {
+#navbar {
     position: fixed;
     z-index: 1;
     top: 0;
@@ -39,7 +39,7 @@ img {
 .title h1 {
     font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "serif";
     padding-right: 25%;
-    padding-left: 30%;
+    padding-left: 35%;
     text-align: center;
     text-decoration: line-through;
     
@@ -47,7 +47,7 @@ img {
     z-index: 100;
 }
 body {
-    background-image: url("http://slodive.com/wp-content/uploads/2011/09/textured-backgrounds/wrinkled-paper.jpg");
+    background-color:#FDF3E7;
     
 }
 
@@ -71,7 +71,7 @@ li a.active {
 }
 
 li a:hover:not(.active) {
-    background-color:darkblue;
+    background-color:#7E8F7C;
     color: white;
 }
 .pricing{
@@ -121,4 +121,37 @@ li a:hover:not(.active) {
     li a{
         font-size: 1.3em;
     }
+}
+
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color:black
+    border: solid 1px black;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+    background-color:darkgray;
+    border-radius: 15px;
+}
+
+footer{
+    background-color: darkgray;
+    width: 100%;
+    border: 1px solid gray;
+    font-size: 1em;
+    text-align: center;
+    font-weight: bold;
+}
+
+#foot{
+    padding-top: 10px;
+}
+#footerList{
+    padding-right: 5%;
+}
+#contacttitle{
+    padding-left: 35%;
 }
